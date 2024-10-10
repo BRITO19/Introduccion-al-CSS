@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion al CSS</title>
+</head>
+<body>
+ <link rel="stylesheet" href="style.css">
+    <nav class="menu">
+    
+        <ul class="list">
+            <li> <a href="">Inicio</a></li>
+            <li> <a href="">Teoria</a></li>
+            <li> <a href="">Practica 1</a></li>
+            <li> <a href="">Practica 2</a></li>
+            <li> <a href="">Practica 3</a></li>
+        </ul>
+
+    </nav>
+
+    <h1>ACTIVIDAD 1 CSS </h1>
+
+    <section class="Teoria">
+      <ol id="li">
+        <li id="preguntas">¿Qué es CSS?</li>
+        <p>CSS (Cascading Style Sheets) es un lenguaje de estilo utilizado para describir la presentación de documentos HTML. Permite definir cómo se mostrarán los elementos en la pantalla, en papel, o en otros medios.</p>
+        
+        <li id="preguntas">¿Cuál es la función principal de CSS?</li>
+        <p>La función principal de CSS es separar el contenido (HTML) de la presentación. Esto incluye la configuración de colores, fuentes, espacios y diseño general de las páginas web.</p>
+
+        <li id="preguntas">¿Cómo se puede incluir CSS en un documento HTML?</li>
+        <p>Se puede incluir de tres maneras:</p>
+        <ul>
+            <li>Inline: Usando el atributo style dentro de una etiqueta HTML.</li>
+            <li>Internal: Colocando el CSS dentro de una etiqueta <"style"> en la sección <head> del documento HTML. </li>
+            <li>External: Enlazando a un archivo CSS externo con la etiqueta <link> en la sección <head>. </li>
+        </ul>
+
+        <li id="preguntas">¿Qué son los selectores en CSS?</li>
+        <p>Los selectores son patrones que se utilizan para seleccionar los elementos HTML que se desean estilizar. Ejemplos incluyen selectores de tipo (como p), de clase (como.clase), de ID (como #id), y combinaciones de estos</p>
+
+        <li id="preguntas">¿Qué son las propiedades y valores en CSS?</li>
+        <p>Las propiedades son atributos que se pueden aplicar a los selectores (como color, font-size, margin). Los valores son las configuraciones específicas que se asignan a esas propiedades (como red, 16px, 10px).</p>
+
+        <li id="preguntas">¿Cómo se aplica el modelo de caja en CSS?</li>
+        <p>El modelo de caja es un concepto que describe cómo se representan los elementos en CSS. Cada elemento se considera una caja con márgenes, bordes, relleno (padding) y contenido. Este modelo determina el espacio que ocupa un elemento y cómo se relaciona con otros elementos.</p>
+
+        <li id="preguntas">¿Qué es el "cascading" en CSS?</li>
+        <p>El "cascading" se refiere a cómo se aplican las reglas de CSS en orden de prioridad. Cuando hay múltiples reglas que afectan a un mismo elemento, el navegador determina cuál aplicar basado en la especificidad, el orden de las reglas, y si son importantes (uso de !important).</p>
+
+        <li id="preguntas">¿Qué son las media queries?</li>
+        <p>Las media queries son técnicas que permiten aplicar estilos CSS específicos basados en características del dispositivo, como el tamaño de la pantalla o la resolución. Se utilizan para crear diseños responsivos que se adaptan a diferentes dispositivos.</p>
+
+        <li id="preguntas">¿Cuáles son algunos estilos comunes que se pueden aplicar?</li>
+        <p >Algunos estilos comunes incluyen:</p>
+        <ul >
+            <li>Color de texto (color)</li>
+            <li>Tamaño de fuente (font-size)</li>
+            <li>Espaciado (margin, padding)</li>
+            <li>Bordes (border)</li>
+            <li>Fondo (background-color, background-image)</li>
+        </ul>
+
+        <li id="preguntas">¿Cómo se puede usar CSS para crear un diseño responsivo?</li>
+        <p>Para crear un diseño responsivo, se pueden usar técnicas como:</p>
+        <ul>
+            <li>Flexbox y Grid para crear layouts flexibles</li>
+            <li>Media queries para aplicar estilos diferentes en función del tamaño de la pantalla</li>
+            <li>Unidades relativas (como %, em, o rem) en lugar de unidades fijas (px) para que los elementos se ajusten mejor a diferentes tamaños de pantalla.</li>
+        </ul>
+    </ol>  
+    </section>
+
+
+    <section class="PracticaUno">
+        <img class="img" src="Foto 2x2 Gustavo Brito.jpg" alt="Gustavo Brito Reynoso" title="Foto de perfil">
+    <div>
+        <h3 id="titulo1"> Gustavo Brito Reynoso</h3>
+        <p id="p1">Egresado en la universidad Tecnologica de Santiago (UTESA) de la carrera de Ingenieria en Sistema Computacional,Tecnico en sistemas informaticos (fundacion de Carlos Slim), Excel green Belt (A2Capacitaciones) recientemente estoy cursando el tecnico en pagina web (TEOREMA INFOTEP) y Soporte Tecnico en CENTU.  </p>
+        <p id="p1">Mi expectativa del curso tecnico en pagina web es aprender al maximo todo los conocimiento suministrado de mi facilitador, y ejecutar los conocimiento en el mercado laboral  </p>
+   <a href="https://www.linkedin.com/in/gustavo-brito-r-9aa8b4293/"><button>Leer mas...</button></a>
+    </div>
+       
+    </section>
+    <section class="PracticaDos">
+        <h3 >Peliculas  <br> de tu <br>preferencia.    </h3>
+        <div class="tarjeta">
+            <img class="tarjetaimg" src="Los ilucionista.png" alt="Los ilucionista">
+            <h3 id="p1">Los ilucionista</h3>
+            <button>ver pelicula</button>
+        </div>
+        <div class="tarjeta">
+            <img class="tarjetaimg"  src="gi joe.png" alt="gi joe">
+            <h3 id="p1">G.I. Joe</h3>
+            <button>ver pelicula</button>
+        </div>
+        <div class="tarjeta">
+            <img class="tarjetaimg" src="end game.png" alt="Producto 3">
+            <h3 id="p1">Vengadores EndGame</h3>
+            <button>ver pelicula</button>
+        </div>
+    </section>
+    <footer>
+        <p>© GBR (Gustavo Brito Reynoso)</p>
+    </footer>
+    
+</body>
+</html>
